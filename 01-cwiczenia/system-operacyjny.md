@@ -5,10 +5,15 @@
 
 1. Z wykorzystaniem maszyny wirtualnej, zainstaluj SO oraz wypisz parametry konfiguracji IP tj:
    * Adres
+   10.0.2.15 | ip addr
    * Maska
+   10.0.2.15/24 | 255.255.255.0
    * Adres bramy
+   10.0.2.2 | ip route - default
    * DNS 1
+   search home
    * DNS 2
+   192.168.0.1
     
     Powyższe parametry uzyskaj na wszystkich z wymienionych systemów
 
@@ -16,12 +21,20 @@
    * [Linux Debian](https://www.debian.org/)
    * [Linux CentOS](https://www.centos.org/)
    * Windows 
+   192.168.0.136
+   255.255.255.0
+   192.168.0.1
+   DNS1: 192.168.0.1
 
 2. Sprawdź oraz przygotuj charakterystykę dla przykładowego urządzenia w Twojej sieci domowej
    * Adres
+   192.168.0.136
    * Maska
+   192.168.0.136/24 255.255.255.0
    * Adres bramy
+   192.168.0.1 
    * DNS 1
+   192.168.0.1
    * DNS 2
   
     Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
